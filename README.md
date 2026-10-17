@@ -8,7 +8,7 @@ Live app: [Streamlit link]
 
 ## Dataset
 
-The data is heart.csv from Kaggle ([Kaggle link]). It has 918 patients and 11 features: Age, Sex, ChestPainType, RestingBP, Cholesterol, FastingBS, RestingECG, MaxHR, ExerciseAngina, Oldpeak and ST_Slope. The target is HeartDisease (1 for heart disease, 0 for none).
+The data is heart.csv from Kaggle . It has 918 patients and 11 features: Age, Sex, ChestPainType, RestingBP, Cholesterol, FastingBS, RestingECG, MaxHR, ExerciseAngina, Oldpeak and ST_Slope. The target is HeartDisease (1 for heart disease, 0 for none).
 
 ## Approach
 
@@ -21,9 +21,6 @@ I split the data first, then fitted the scaler and encoder on the training set o
 - Naive Bayes
 - Decision Tree
 - SVM
-- [Random Forest / XGBoost, if used]
-
-I looked mainly at recall, because missing a sick patient is worse than a false alarm. I also checked precision, F1 and ROC-AUC.
 
 ## Results
 
